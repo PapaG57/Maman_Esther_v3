@@ -30,11 +30,11 @@ divider {
 	position: relative;
 	top: 29%;
 	font-size: 35px;
-<<<<<<< HEAD
+/* <<<<<<< HEAD
 	text-align: center;
 	margin-bottom: 40px;
 =======
->>>>>>> origin/gh-pages
+>>>>>>> origin/gh-pages */
 }
 .connect-text{
 	margin-top: 50px;
@@ -890,20 +890,20 @@ a:hover {
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 #contact{
     padding:10px 0 10px;
-  }
+}
 .fa-envelope-o,.fa-phone,.fa-fax,.fa-map-marker{
 	padding-right: 13px;
 }
-  .contact-text{
+.contact-text{
     margin:45px auto;
-  }
+}
 
-  .mail-message-area{
+.mail-message-area{
     width:100%;
     padding:0 15px;
-  }
+}
 
-  .mail-message{
+.mail-message{
     width: 100%;
     background:rgba(255,255,255, 0.8) !important;
     -webkit-transition: all 0.7s;
@@ -911,22 +911,22 @@ a:hover {
     transition: all 0.7s;
     margin:0 auto;
     border-radius: 0;
-  }
+}
 
-  .not-visible-message{
+.not-visible-message{
     height:0px;
     opacity: 0;
-  }
+}
 
-  .visible-message{
+.visible-message{
     height:auto;
     opacity: 1;
     margin:25px auto 0;
-  }
+}
 
 /* Input Styles */
 
-  .form {
+.form {
 	width: 100%;
 	padding: 15px;
 	background: transparent;
@@ -939,25 +939,25 @@ a:hover {
 	transition: all 0.4s;
 }
 
-  .form:hover{
+.form:hover{
     border:1px solid #8BC3A3;
-  }
+}
 
-  .form:focus{
+.form:focus{
     color: white;
     outline: none;
     border:1px solid #8BC3A3;
-  }
+}
 
-  .textarea{
+.textarea{
     height: 120px;
     max-height: 120px;
     max-width: 100%;
-  }
+}
 
 /* Generic Button Styles */
 
-  .button{
+.button{
     padding:8px 12px;
     background:#0A5175;
     display: block;
@@ -972,19 +972,19 @@ a:hover {
     box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
     -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
     -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
-  }
+}
 
-  .button:hover{
+.button:hover{
     background:#8BC3A3;
     color:white;
-  }
-  .contact-form-full{
-  	margin-bottom: 20px;
+}
+.contact-form-full{
+	margin-bottom: 20px;
 
-  }
+}
 /* Send Button Styles */
 
-  .form-btn {
+.form-btn {
 	width: 100%;
 	display: block;
 	height: auto;
@@ -1000,17 +1000,17 @@ a:hover {
 	margin: auto;
 	box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
 	-moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
-	-webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+-webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
 }
 
- .form-btn:hover {
+.form-btn:hover {
 	background: #287676;
 	color: white;
 }
 
-  .form-btn:active{
+.form-btn:active{
     opacity: 0.9;
-  }
+}
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* -----Services ----- */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
@@ -1040,9 +1040,9 @@ a:hover {
 	color: #6CA8D1;
 }
 #exTab1 .tab-content {
-  color : white;
-  background-color: #428bca;
-  padding : 5px 15px;
+	color : white;
+	background-color: #428bca;
+	padding : 5px 15px;
 }
 .nav-tabs {
 	border-bottom: none;
@@ -1081,19 +1081,19 @@ button.button-info {
 /* remove border radius for the tab */
 
 #exTab1 .nav-pills > li > a {
-  border-radius: 0;
+	border-radius: 0;
 }
 
 /* change border radius for the tab , apply corners on top*/
 
 #exTab3 .nav-pills > li > a {
-  border-radius: 4px 4px 0 0 ;
+	border-radius: 4px 4px 0 0 ;
 }
 
 #exTab3 .tab-content {
-  color : white;
-  background-color: #428bca;
-  padding : 5px 15px;
+	color : white;
+	background-color: #428bca;
+	padding : 5px 15px;
 }
 
 
@@ -1129,7 +1129,7 @@ button.button-info {
     }
 }
 
- section.work-block{
+section.work-block{
     background:url(../img/bg.jpg) center center/cover no-repeat fixed;
     -webkit-background-size:cover;
     -moz-background-size:cover;
@@ -1138,9 +1138,9 @@ button.button-info {
     float:left;
     padding: 115px;
     margin: 80px 0 0;
- }
+}
 
- /*-------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
 /* FOOTER*/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 .left-side{
