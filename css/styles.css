@@ -142,7 +142,7 @@ p.text-center.sub-text {
 .next-line{
 	max-width: 600px !important;
 }
- li.selected a{
+li.selected a{
 	color: black !important;
 }
 .nav .open>a, .nav .open>a:focus, .open>a:hover{
@@ -156,11 +156,11 @@ p.text-center.sub-text {
 @media (min-width: 991px){
 .navbar .nav,
 .navbar .nav > li {
-  float:none;
-  display:inline-block;
-  *display:inline; /* ie7 fix */
-  *zoom:1; /* hasLayout ie7 trigger */
-  vertical-align: top;
+	float:none;
+	display:inline-block;
+	*display:inline; /* ie7 fix */
+	*zoom:1; /* hasLayout ie7 trigger */
+vertical-align: top;
 }
 .navbar-collapse.collapse {
 	display: block!important;
@@ -171,7 +171,7 @@ p.text-center.sub-text {
 	text-align: center;
 }
 .navbar-inner {
-  text-align:center;
+	text-align:center;
 }
 }
 
@@ -272,25 +272,25 @@ ul.nav.navbar-nav li a{
 }
 
 .stat {
-   padding:150px auto;
-   text-align:center;
+	padding:150px auto;
+	text-align:center;
 }
 .highlight {
-   color:white;
-   padding:20px 0;
-   font-weight:bold;
-   display:block;
-   overflow:hidden;
-   margin-bottom:0;
-   font-size:48px;
+	color:white;
+	padding:20px 0;
+	font-weight:bold;
+	display:block;
+	overflow:hidden;
+	margin-bottom:0;
+	font-size:48px;
 }
 .stat i {
 	color: #F9F9F9;
 }
 .milestone-details {
-   font-weight:bold;
-   font-size:18px;
-   color: #FFF6F6;
+	font-weight:bold;
+	font-size:18px;
+	color: #FFF6F6;
 }
 
 
