@@ -127,7 +127,7 @@ p, li {
 	box-shadow: 0px 0px 12px 1px rgba(0,0,0,0.11);
 }
 .main-text {
-	margin-top: 100px;
+	margin-top: 40px;
 }
 p.text-center.sub-text {
 	font-size: 19px;
@@ -528,7 +528,10 @@ padding: 5px;
 /******* Blog ******/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 
-
+.blog {
+	background-image: url(../img/enfants-afrique-blog.webp)center center fixed no-repeat;
+	background-size: cover;
+}
 section.blog {
 	margin-top: 120px;
 }
