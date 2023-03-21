@@ -117,6 +117,7 @@ p, li {
 	/* padding: 50px 0; */
 }
 .heading-icon{
+	background-color: #ececec;
 	margin-top: 79px;
 	position: relative;
 	display: inline-block;
@@ -745,7 +746,7 @@ background: none;
 .carousel-control {
     position: absolute !important;
     top: 50% !important;
-    width: 10% !important;
+    width: 15% !important;
     color: #fff !important;
     text-shadow: 0 1px 2px rgba(0,0,0,.6) !important;
     opacity: .5 !important;
@@ -754,21 +755,26 @@ background: none;
 .content-block{
 	margin-top: 20px;
 }
-@media (max-width: 600px){
-.carousel-caption {
-font-family: 'Poiret One', cursive;
-font-size: 24px !important;
-font-weight: bold;
-background: none;
-}
-}
+
 .carousel-caption {
 	font-family: 'Poiret One', cursive;
 	text-transform: uppercase;
 	font-size: 25px;
 	font-weight: bold;
 	background: rgba(152, 168, 173, 0.43);
+}
 
+.carousel-inner .active {
+	left: 20px !important;
+}
+
+@media (max-width: 600px){
+	.carousel-caption {
+	font-family: 'Poiret One', cursive;
+	font-size: 24px !important;
+	font-weight: bold;
+	background: none;
+	}
 }
 
 /******* Carousel End ******/
