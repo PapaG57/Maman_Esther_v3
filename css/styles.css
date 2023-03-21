@@ -522,10 +522,10 @@ padding: 5px;
 
 
 /*-------------------------------------------------------------------------------------------------------------------------------*/
-/******* Blog ******/
+/******* Nouvelles ******/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 
-section.blog {
+section.nouvelles {
 	margin-top: 120px;
 }
 .blok-read-sm
@@ -537,12 +537,17 @@ section.blog {
 	border: 1px solid #e1e8ed;
 	background: #fff;
 }
-
-.blok-read-sm img
-{
-	width: 100%;
+#news1 {
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+	background-color: lightgrey;
+}
+.img-news {
+	width: auto;
 	height: auto;
 }
+
 
 .content-block .button-main {
 	border: 1px solid rgba(47, 116, 116, 1);
