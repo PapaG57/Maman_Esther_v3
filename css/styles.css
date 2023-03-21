@@ -17,14 +17,14 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /******* General ******/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
-divider {
+.divider {
 	height: 150px;
 	width: 100%;
 	background-attachment: inherit;
 	margin: 45px 0 52px;
 	text-align: center;
-	color: white;
-	background: url(../images/divider.jpg) no-repeat fixed center;
+	color: #000;
+	background-color: white;
 }
 .header-text {
 	position: relative;
@@ -241,9 +241,6 @@ ul.nav.navbar-nav li a{
 	float:left;
 	}
 }
-
-/******* caroussel *******/
-
 
 /******* Header End ******/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
@@ -528,10 +525,6 @@ padding: 5px;
 /******* Blog ******/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 
-.blog {
-	background-image: url(../img/enfants-afrique-blog.webp)center center fixed no-repeat;
-	background-size: cover;
-}
 section.blog {
 	margin-top: 120px;
 }
@@ -1406,8 +1399,8 @@ footer{
     }
     .footer-link ul li {
     	width: auto;
-    	 margin-right: 20px;
-    	}
+    	margin-right: 20px;
+    }
 }
 @media screen and (max-width: 540px) {
     .footer-adress-block {
