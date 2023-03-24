@@ -17,6 +17,7 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /******* General ******/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
+
 .divider {
 	height: 150px;
 	width: 100%;
@@ -30,11 +31,8 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 	position: relative;
 	top: 29%;
 	font-size: 35px;
-/* <<<<<<< HEAD
 	text-align: center;
 	margin-bottom: 40px;
-=======
->>>>>>> origin/gh-pages */
 }
 .connect-text{
 	margin-top: 50px;
@@ -47,7 +45,8 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 	border-bottom: 2px solid;
 }
 body {
-	background: rgba(153, 211, 213, 0.32);
+	background: linear-gradient(to right, #0ebcf1, #cceff0);
+	/* background: rgba(153, 211, 213, 0.32); */
 	margin: 0px;
 	padding: 0px;
 	font-family: 'Varela Round', sans-serif;
@@ -57,7 +56,9 @@ body {
 
 
 .col-md-4.subscribe-form {
-margin-bottom: 49px;
+	margin-left: 550px;
+	margin-right: 550px;
+	margin-bottom: 49px;
 }
 
 p, li {
@@ -131,7 +132,7 @@ p, li {
 	margin-top: 40px;
 }
 p.text-center.sub-text {
-	font-size: 19px;
+	font-size: 17px;
 	margin: 14px auto 38px;
 	padding: 0 15px;
 	line-height: 26px;
@@ -520,12 +521,11 @@ padding: 5px;
 	margin-left: -20px;
 }
 
-
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /******* Nouvelles ******/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 
-section.nouvelles {
+section.news {
 	margin-top: 120px;
 }
 .blok-read-sm
@@ -715,12 +715,13 @@ section.nouvelles {
 
 
 /*-------------------------------------------------------------------------------------------------------------------------------*/
-/******* Carousel ******/
+/******* Carousel n° 1 ******/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 
 .content-caroussel{
 	display: flex;
 	justify-content: center;
+	align-items: center;
 }
 .container-combat {
 	width: 50% !important;
@@ -824,15 +825,24 @@ a:hover {
 	font-size: 20px;
 	color: #fff;
 }
-
+.img-debre {
+	border-radius: 50%;
+	width: 120px;
+}
 
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* ----- Subscribe ----- */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 
+/* .newsletter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+} */
+
 .subscribe {
-	position: relative;
-	float: left;
+	/* position: relative; */
+	/* float: left; */
 	width: 100%;
 	background: #fff;
 	border: 1px solid #e1e8ed;
@@ -1442,3 +1452,4 @@ footer{
     	margin-right: 30px;
     }
 }
+
